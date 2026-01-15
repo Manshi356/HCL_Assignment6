@@ -1,0 +1,117 @@
+Manual Test Case Report On Customer Relationship Management (CRM)
+
+Test Case 1 :
+
+Field	Description
+Test Case Id	TC_01
+Test Case Title	Verify Login with Valid Credentials
+Module Name	Login
+Preconditions	User must be registered
+Test Steps	1. Open CRM application
+2. Enter valid username and password	
+3. Click on Login button	
+Test Data	Username: admin, Password: Admin@123
+Expected Result	User should login successfully
+Actual Result	User logged in successfully
+Status	Pass
+Remarks	Login functionality working correctly
+
+Test Case 2 :
+Field	Description
+Test Case Id	TC_02
+Test Case Title	Verify Login with Invalid Credentials
+Module Name	Login
+Preconditions	User must exist
+Test Steps	1. Enter invalid username or password
+2. Click Login	
+Test Data	Username: admin, Password: wrong123
+Expected Result	Error message should be displayed
+Actual Result	Error message displayed
+Status	Pass
+Remarks	Proper validation message shown
+
+Test Case 3 :
+Field	Description
+Test Case Id	TC_03
+Test Case Title	Add New Customer Record
+Module Name	Customer Management
+Preconditions	User logged in
+Test Steps	1. Navigate to Add Customer page
+2. Enter customer details	
+3. Click Save	
+Test Data	Name: Rahul Sharma, Email: rahul@gmail.com
+Expected Result	Customer record should be added successfully
+Actual Result	Customer record added
+Status	Pass
+Remarks	Customer added successfully
+
+Test Case 4 :
+Field	Description
+Test Case Id	TC_04
+Test Case Title	View Customer Details
+Module Name	Customer Management
+Preconditions	Customer record must exist
+Test Steps	1. Search customer
+2. Click View option	
+Test Data	Customer ID: C101
+Expected Result	Customer details should be displayed
+Actual Result	Customer details displayed
+Status	Pass
+Remarks	Data displayed correctly
+
+Test Case 5 :
+Field	Description
+Test Case Id	TC_05
+Test Case Title	Update Customer Information
+Module Name	Customer Management
+Preconditions	Customer record must exist
+Test Steps	1. Select customer
+2. Update details	
+3. Click Update	
+Test Data	Phone: 9876543210
+Expected Result	Customer details should be updated
+Actual Result	Customer details updated
+Status	Pass
+Remarks	Update successful
+
+Test Case 6 :
+Field	Description
+Test Case Id	TC_06
+Test Case Title	Delete Customer Record
+Module Name	Customer Management
+Preconditions	Customer record must exist
+Test Steps	1. Select customer
+2. Click Delete	
+3. Confirm deletion	
+Test Data	Customer ID: C101
+Expected Result	Customer record should be deleted
+Actual Result	Customer record deleted
+Status	Pass
+Remarks	Record removed successfully
+
+Test Case 7 :
+Field	Description
+Test Case Id	TC_07
+Test Case Title	Search Customer by Name
+Module Name	Search
+Preconditions	Customer record must exist
+Test Steps	1. Enter customer name
+2. Click Search	
+Test Data	Name: Rahul
+Expected Result	Matching customer records should be displayed
+Actual Result	Matching records displayed
+Status	Pass
+Remarks	Search working correctly
+
+Test Case 8 :
+Field	Description
+Test Case Id	TC_08
+Test Case Title	Logout from CRM Application
+Module Name	Logout
+Preconditions	User logged in
+Test Steps	1. Click Logout button
+Test Data	N/A
+Expected Result	User should be logged out successfully
+Actual Result	Logout successful
+Status	Pass
+Remarks	Session ended securely
